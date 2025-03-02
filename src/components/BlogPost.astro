@@ -1,0 +1,9 @@
+---
+export const props = defineProps({ title: String, date: String });
+---
+<article>
+    <h2>{title}</h2>
+    <time>{date}</time>
+    <slot />
+</article>
+
